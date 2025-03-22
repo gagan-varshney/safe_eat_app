@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "626150363460",
-    "project_id": "safeeat-36a01",
-    "storage_bucket": "safeeat-36a01.firebasestorage.app"
+    "project_number": "939518696890",
+    "project_id": "safeeat-c2512",
+    "storage_bucket": "safeeat-c2512.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:626150363460:android:70920ed0368b63d8c74711",
+        "mobilesdk_app_id": "1:939518696890:android:52601338028cc2302f5183",
         "android_client_info": {
           "package_name": "com.example.safe_eat_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBKfRFqgpP1mPJxbMK0BQmlGSNq4EsyE5A"
+          "current_key": "AIzaSyBOsZuaUko756C9rHkjbOSdfoMEcXe182k"
         }
       ],
       "services": {
