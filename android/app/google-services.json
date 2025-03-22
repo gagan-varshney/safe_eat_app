@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "626150363460",
+    "project_id": "safeeat-36a01",
+    "storage_bucket": "safeeat-36a01.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626150363460:android:70920ed0368b63d8c74711",
+        "android_client_info": {
+          "package_name": "com.example.safe_eat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKfRFqgpP1mPJxbMK0BQmlGSNq4EsyE5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
