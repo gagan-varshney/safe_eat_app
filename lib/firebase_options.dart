@@ -5,15 +5,6 @@ import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
-///
-/// Example:
-/// ```dart
-/// import 'firebase_options.dart';
-/// // ...
-/// await Firebase.initializeApp(
-///   options: DefaultFirebaseOptions.currentPlatform,
-/// );
-/// ```
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -30,8 +21,8 @@ class DefaultFirebaseOptions {
         return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for linux - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
+          'DefaultFirebaseOptions have not been configured for Linux. '
+              'Reconfigure using FlutterFire CLI.',
         );
       default:
         throw UnsupportedError(
@@ -46,7 +37,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '939518696890',
     projectId: 'safeeat-c2512',
     authDomain: 'safeeat-c2512.firebaseapp.com',
-    storageBucket: 'safeeat-c2512.firebasestorage.app',
+    storageBucket: 'safeeat-c2512.appspot.com', // Fixed .firebasestorage.app → .appspot.com
     measurementId: 'G-78GM3SBBLF',
   );
 
@@ -55,7 +46,7 @@ class DefaultFirebaseOptions {
     appId: '1:939518696890:android:52601338028cc2302f5183',
     messagingSenderId: '939518696890',
     projectId: 'safeeat-c2512',
-    storageBucket: 'safeeat-c2512.firebasestorage.app',
+    storageBucket: 'safeeat-c2512.appspot.com', // Fixed typo
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
@@ -63,7 +54,7 @@ class DefaultFirebaseOptions {
     appId: '1:939518696890:ios:d6b7bc9bcd363bf22f5183',
     messagingSenderId: '939518696890',
     projectId: 'safeeat-c2512',
-    storageBucket: 'safeeat-c2512.firebasestorage.app',
+    storageBucket: 'safeeat-c2512.appspot.com', // Fixed typo
     iosBundleId: 'com.example.safeEatApp',
   );
 
@@ -72,7 +63,7 @@ class DefaultFirebaseOptions {
     appId: '1:939518696890:ios:d6b7bc9bcd363bf22f5183',
     messagingSenderId: '939518696890',
     projectId: 'safeeat-c2512',
-    storageBucket: 'safeeat-c2512.firebasestorage.app',
+    storageBucket: 'safeeat-c2512.appspot.com', // Fixed typo
     iosBundleId: 'com.example.safeEatApp',
   );
 
@@ -82,7 +73,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '939518696890',
     projectId: 'safeeat-c2512',
     authDomain: 'safeeat-c2512.firebaseapp.com',
-    storageBucket: 'safeeat-c2512.firebasestorage.app',
+    storageBucket: 'safeeat-c2512.appspot.com', // Fixed typo
     measurementId: 'G-5MSLYN7J0C',
   );
 }
